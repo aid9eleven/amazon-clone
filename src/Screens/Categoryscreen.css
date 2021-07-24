@@ -1,0 +1,89 @@
+.categoryscreen {
+  background-color: white;
+}
+
+.categoryscreen__body {
+  padding: 1rem 2rem;
+  min-height: 100vh;
+  display: flex;
+}
+
+.categoryscreen__body__left {
+  height: fit-content;
+  padding-right: 3rem;
+  margin: 1rem 3rem 1rem 0;
+  border-right: 0.1rem solid #949494;
+}
+
+.categoryscreen__body__left > h3 {
+  font-size: 1.5rem;
+}
+
+.categoryscreen__body__links {
+  padding-left: 2rem;
+  margin: 1rem 0;
+}
+
+.categoryscreen__body__links > a {
+  width: max-content;
+  font-size: 1.4rem;
+  font-family: 'amazon-light';
+  margin: 0.3rem 0;
+}
+
+.categoryscreen__body__links > a:hover {
+  text-decoration: underline;
+}
+
+.categoryscreen__body__right h1 {
+  font-size: 2.5rem;
+}
+
+.categoryscreen__items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.categoryscreen__item {
+  margin: 2rem 0;
+}
+
+.categoryscreen__item > img {
+  width: 100%;
+  max-height: 30rem;
+  object-fit: contain;
+}
+
+.categoryscreen__item__name {
+  margin-top: 1rem;
+}
+
+.categoryscreen__item:hover .categoryscreen__item__name {
+  text-decoration: underline;
+}
+
+.categoryscreen__item__rating {
+  margin-top: 1rem;
+}
+
+.categoryscreen__item__rating > .MuiSvgIcon-root {
+  font-size: 2.5rem;
+  color: #ffa41c;
+}
+
+.categoryscreen__item__price {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.categoryscreen__item__price > strong {
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 0 0.2rem;
+}

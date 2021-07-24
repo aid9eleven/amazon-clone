@@ -1,0 +1,48 @@
+.validateUser {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.validateUser img {
+  width: 10rem;
+}
+
+.validateUser__message {
+  margin-top: 2rem;
+  max-width: 50rem;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid #dddddd;
+}
+
+.validateUser__message > h3 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.validateUser__message > hr {
+  border: none;
+  outline: none;
+  height: 0.1rem;
+  background-color: #dddddd;
+  margin: 1.5rem 0;
+}
+
+.validateUser__message > p {
+  font-size: 1.5rem;
+}
+
+.validateUser__link {
+  font-family: 'amazon-light';
+  font-size: 1.4rem;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+
+.validateUser__link:hover {
+  text-decoration: underline;
+}

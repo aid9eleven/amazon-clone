@@ -1,0 +1,47 @@
+.slider {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: -23%;
+}
+
+.slider__slides {
+  width: 100%;
+  display: flex;
+  transition: 200ms ease-in;
+}
+
+.slider__slides > img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.slider__fade {
+  position: absolute;
+  bottom: 0;
+  height: 25%;
+  width: 100%;
+  background: -webkit-linear-gradient(
+    rgba(233, 236, 236, 0), rgba(233, 236, 236, 1)
+  );
+}
+
+.slider__arrowLeft {
+  left: 0;
+}
+
+.slider__arrowRight {
+  right: 0;
+}
+
+.slider__arrowLeft, .slider__arrowRight {
+  position: absolute;
+  top: 5rem;
+  padding: 1rem;
+  font-size: 10rem;
+  cursor: pointer;
+}
+
+.slider__arrowLeft > .MuiSvgIcon-root,
+.slider__arrowRight > .MuiSvgIcon-root { 
+  font-size: 6rem;
+}

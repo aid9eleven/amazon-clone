@@ -1,0 +1,94 @@
+.countrySelect__shadow {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  display: none;
+}
+
+.countrySelect.active .countrySelect__shadow{
+  display: block;
+}
+
+.countrySelect__main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: white;
+  width: 30rem;
+  position: fixed;
+  left: 50%;
+  top: 40%;
+  transform: translateX(-50%) translateY(-50%);
+  padding: 2rem;
+  border-radius: 1rem;
+  transition: 200ms ease-in;
+  z-index: -1;
+  opacity: 0;
+}
+
+.countrySelect.active .countrySelect__main {
+  top: 35%;
+  z-index: 101;
+  opacity: 1;
+}
+
+.countrySelect__header {
+  font-size: 1.7rem;
+  width: 100%;
+}
+
+.countrySelect__select {
+  position: relative;
+  margin: 2.5rem 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+.countrySelect__select__select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f2f2;
+  padding: 0.5rem 1rem;
+  border: 0.1rem solid #b0b4b4;
+  border-radius: 0.8rem;
+  box-shadow: 0 0.2rem 0.3rem -0.2rem rgba(0, 0, 0, 0.75);
+}
+
+.countrySelect__main > button {
+  outline: none;
+  border: 0.1rem solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  padding: 1rem 2rem;
+  border-radius: 0.8rem;
+  background-color: #f2ca66;
+  cursor: pointer;
+}
+
+.countrySelect__dropdown {
+  overflow: auto;
+  width: fit-content;
+  max-height: 25rem;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.75);
+  display: none;
+}
+
+.countrySelect__dropdown.active {
+  display: block;
+}
+
+.countrySelect__dropdown > div {
+  padding: 0.2rem 1rem;
+}
+
+.countrySelect__dropdown > div:hover {
+  background-color: #cccccc;
+}

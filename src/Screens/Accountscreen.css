@@ -1,0 +1,270 @@
+.accountscreen {
+  background-color: white;
+}
+
+.accountscreen__body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.accountscreen__breadcrumbs {
+  display: flex;
+  font-size: 1.3rem;
+  font-family: 'amazon-light';
+}
+
+.accountscreen__breadcrumbs > a {
+  margin-right: 1.5rem;
+  font-family: 'amazon-light';
+  color: #0066c0;
+}
+
+.accountscreen__breadcrumbs > a:hover {
+  color: #c45500;
+  text-decoration: underline;
+}
+
+.accountscreen__breadcrumbs > p {
+  margin-left: 1.5rem;
+  font-family: 'amazon-light';
+  color: #c45500;
+}
+
+.accountscreen__title {
+  font-weight: normal;
+  font-size: 2.8rem;
+  margin-top: 1.5rem;
+}
+
+
+.accountscreen__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.accountscreen__homeoption {
+  display: flex;
+  padding: 1.5rem;
+  border: 0.1rem solid #dddddd;
+  border-radius: 0.3rem;
+  max-width: 30rem;
+  cursor: pointer;
+}
+
+.accountscreen__homeoption:hover {
+  background-color: #eeeeee;
+}
+
+.accountscreen__homeoption > img {
+  width: 6rem;
+  margin-right: 1rem;
+  object-fit: contain;
+}
+
+.accountscreen__homeoption__details > h3 {
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+.accountscreen__homeoption__details > p {
+  font-size: 1.4rem;
+  margin-top: 0.5rem;
+}
+
+.accountscreen__body hr {
+  border: none;
+  outline: none;
+  height: 0.1rem;
+  background-color: #dddddd;
+  margin: 5rem 0;
+}
+
+.accountscreen__linklist {
+  padding: 1.5rem;
+  border: 0.1rem solid #dddddd;
+  border-radius: 0.3rem;
+  max-width: 30rem;
+}
+
+.accountscreen__linklist > h3 {
+  font-weight: normal;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.accountscreen__linklist > p {
+  font-size: 1.3rem;
+  font-family: 'amazon-light';
+  color: #0066c0;
+  padding: 0.3rem 0;
+  cursor: pointer;
+}
+
+.accountscreen__linklist > p:hover {
+  color: #c45500;
+  text-decoration: underline;
+}
+
+.accountscreen__securityoptions {
+  margin-top: 1.5rem;
+}
+
+.accountscreen__securityoption {
+  display: flex;
+  align-items: center;
+  min-width: 60rem;
+  padding: 2rem;
+  border: 0.1rem solid #dddddd;
+  border-top: none;
+}
+
+.accountscreen__securityoption:first-child {
+  border-top: 0.1rem solid #dddddd;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.accountscreen__securityoption:last-child {
+  border-radius: 0 0 0.5rem 0.3rem;
+}
+
+.accountscreen__securityoption__details {
+  flex: 1;
+}
+
+.accountscreen__securityoption__details > h3 {
+  font-size: 1.4rem;
+}
+
+.accountscreen__securityoption__details > p {
+  margin-top: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.accountscreen__securityoption__details.edit > p {
+  display: none;
+}
+
+.accountscreen__securityoption__details > input {
+  display: none;
+  font-size: 1.4rem;
+  font-family: 'amazon-light';
+  padding: 0.6rem;
+  outline: none;
+  margin-top: 0.5rem;
+  width: 20rem;
+  border: 0.1rem solid #949494;
+  border-radius: 0.3rem;
+  transition: 150ms ease-in;
+}
+
+.accountscreen__securityoption__details > input:focus {
+  border-color: #e77911;
+  box-shadow: 0 0 0.5rem 0.1rem #f39110;
+}
+
+.accountscreen__securityoption__details.edit > input {
+  display: block;
+}
+
+.accountscreen__securityoption > button {
+  padding: 0.5rem;
+  width: 7rem;
+  border: 0.1rem solid #949494;
+  outline: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.accountscreen__securityoption > button.hidden {
+  display: none;
+}
+
+.accountscreen__securityoption > button:hover {
+  background-color: #d0d3d6;
+}
+
+.accountscreen__securityoptions ~ button {
+  padding: 0.5rem;
+  width: 7rem;
+  background-color: #f2ca66;
+  border: 0.1rem solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  outline: none;
+  border-radius: 0.3rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.accountscreen__securityoptions ~ button:hover {
+  background-color: #e6be5b;
+}
+
+.accountscreen__prime {
+  display: flex;
+  align-items: flex-end;
+  background-color: #002552;
+  padding: 1rem 4rem;
+  color: white;
+}
+
+.accountscreen__prime__info > h1 {
+  font-size: 4rem;
+}
+
+.accountscreen__prime__info > h3 {
+  font-size: 2rem;
+  margin: 1.5rem 0;
+}
+
+.accountscreen__prime__feature {
+  display: flex;
+  align-items: center;
+  padding: 0.2rem;
+  font-size: 1.8rem;
+}
+
+.accountscreen__prime__info > button {
+  background-color: #ffa724;
+  color: #284d34;
+  border: 0.1rem solid #ff6138;
+  font-size: 2.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0;
+  padding: 1rem 3rem;
+  margin: 2rem 0;
+}
+
+.accountscreen__prime__info > button:hover {
+  background-color: #ffc400;
+}
+
+.accountscreen__prime__info > p {
+  font-size: 1.4rem;
+  font-family: 'amazon-light';
+  margin: 1rem 0;
+}
+
+.accountscreen__prime__link {
+  display: inline;
+  font-family: 'amazon-light';
+  cursor: pointer;
+  color: #ffa724;
+}
+
+.accountscreen__prime__link:hover {
+  text-decoration: underline;
+}
+
+.accountscreen__prime__largeImage {
+  width: 40rem;
+  object-fit: contain;
+}
+
+.accountscreen__prime__logo {
+  width: 10rem;
+}

@@ -1,0 +1,82 @@
+.productscreen {
+  background-color: white;
+}
+
+.productscreen__body {
+  padding: 1rem 2rem;
+  min-height: 100vh;
+}
+
+.productscreen__breadcrumbs {
+  font-size: 1.3rem;
+  font-family: 'amazon-light';
+  margin-bottom: 2rem;
+  color: #565959;
+}
+
+.productscreen__breadcrumbs:hover {
+  text-decoration: underline;
+}
+
+.productscreen__product {
+  display: flex;
+}
+
+.productscreen__product__image {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.productscreen__product__image > img {
+  max-width: 100%;
+  max-height: 80rem;
+}
+
+.productscreen__product__details {
+  width: 35rem;
+  margin: 0 2rem;
+}
+
+.productscreen__product__title {
+  font-size: 2.5rem;
+}
+
+.productscreen__product__rating, .productscreen__product__price {
+  font-size: 1.5rem;
+  color: #565959;
+  margin-top: 1rem;
+}
+
+.productscreen__product__rating strong {
+  font-weight: normal;
+  font-size: 2rem;
+  color: #ffa41c;
+}
+
+.productscreen__product__rating .MuiSvgIcon-root {
+  font-size: 2.5rem;
+  color: #ffa41c;
+}
+
+.productscreen__product__price > strong {
+  font-weight: normal;
+  font-size: 2rem;
+  color: #b12704;
+}
+
+.productscreen__product__description {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.productscreen__product__description > h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.productscreen__notice {
+  width: 100%;
+  height: 100vh;
+}

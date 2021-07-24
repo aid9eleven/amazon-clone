@@ -1,0 +1,93 @@
+.sidebar__shadow {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  display: none;
+}
+
+.sidebar.active .sidebar__shadow {
+  display: block;
+}
+
+.sidebar__main {
+  position: fixed;
+  left: -100%;
+  top: 0;
+  background-color: white;
+  width: 30rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0.5rem 0 0.5rem -0.5rem rgba(0, 0, 0, 0.75);
+  z-index: 101;
+  transition: 300ms ease-in;
+}
+
+.sidebar.active .sidebar__main {
+  left: 0;
+}
+
+.sidebar__header > a {
+  width: 100%;
+  padding: 2rem;
+  background-color: #232f3e;
+  color: white;
+}
+
+.sidebar__content {
+  flex: 1;
+  overflow: auto;
+  padding-bottom: 2rem;
+}
+
+.sidebar__optionSet {
+  padding-bottom: 2rem;
+}
+
+.sidebar__optionSet__header {
+  padding: 2rem;
+  font-size: 1.8rem;
+}
+
+.sidebar__option {
+  width: 100%;
+  padding: 0.5rem 2rem;
+  font-family: 'amazon-light';
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.sidebar__option:hover{
+  background-color: #cccccc;
+}
+
+.sidebar__content > hr {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 0.1rem;
+  background-color: #e7e7e7;
+}
+
+.sidebar__closeButton {
+  position: fixed;
+  top: 0;
+  left: 32rem;
+  padding: 1rem;
+  cursor: pointer;
+  display: none;
+  z-index: 101;
+}
+
+.sidebar.active .sidebar__closeButton {
+  display: block;
+}
+
+.sidebar__closeButton > .MuiSvgIcon-root {
+  color: white;
+  font-size: 3.5rem;
+}

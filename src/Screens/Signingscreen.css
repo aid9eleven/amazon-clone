@@ -1,0 +1,56 @@
+.signingscreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+}
+
+.signingscreen__logo {
+  margin: 3rem 0;
+}
+
+.signingscreen__logo > img {
+  width: 10rem;
+}
+
+.signingscreen__main {
+  width: fit-content;
+}
+
+.signingscreen__separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.signingscreen__separator > p {
+  padding: 0.5rem;
+  color: #767676;
+  font-size: 1.3rem;
+  font-family: 'amazon-light';
+}
+
+.signingscreen__separator:before,
+.signingscreen__separator:after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #767676;
+}
+
+.signingscreen__button {
+  margin-top: 1.5rem;
+  width: 100%;
+  padding: 0.6rem;
+  background-color: #ebedf0;
+  border: 0.1rem solid #949494;
+  border-radius: 0.3rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.signingscreen__button:hover {
+  background-color: #d0d3d6;
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Arts & Crafts"
+  },
+  {
+    "id": 2,
+    "name": "Automotive"
+  },
+  {
+    "id": 3,
+    "name": "Baby"
+  },
+  {
+    "id": 4,
+    "name": "Beauty & Personal Care"
+  },
+  {
+    "id": 5,
+    "name": "Books"
+  },
+  {
+    "id": 6,
+    "name": "Computers"
+  },
+  {
+    "id": 7,
+    "name": "Digital Music"
+  },
+  {
+    "id": 8,
+    "name": "Electronics"
+  },
+  {
+    "id": 9,
+    "name": "Women's Fashion"
+  },
+  {
+    "id": 10,
+    "name": "Men's Fashion"
+  },
+  {
+    "id": 11,
+    "name": "Girl's Fashion"
+  },
+  {
+    "id": 12,
+    "name": "Boy's Fashion"
+  },
+  {
+    "id": 13,
+    "name": "Health & Household"
+  },
+  {
+    "id": 14,
+    "name": "Home & Kitchen"
+  },
+  {
+    "id": 15,
+    "name": "Industrial & Scientific"
+  },
+  {
+    "id": 16,
+    "name": "Luggage"
+  },
+  {
+    "id": 17,
+    "name": "Movies & TV"
+  },
+  {
+    "id": 18,
+    "name": "Smart Home"
+  },
+  {
+    "id": 19,
+    "name": "Pet Supplies"
+  },
+  {
+    "id": 20,
+    "name": "Software"
+  },
+  {
+    "id": 21,
+    "name": "Sports & Outdoors"
+  },
+  {
+    "id": 22,
+    "name": "Tools & Home Improvement"
+  },
+  {
+    "id": 23,
+    "name": "Toys & Games"
+  },
+  {
+    "id": 24,
+    "name": "Video Games"
+  }
+]

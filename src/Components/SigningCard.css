@@ -1,0 +1,89 @@
+.signingCard {
+  padding: 2.5rem;
+  border: 0.1rem solid #dddddd;
+  border-radius: 0.5rem;
+}
+
+.signingCard__title {
+  font-weight: normal;
+  font-size: 3rem;
+}
+
+.signingCard > form {
+  margin-top: 2rem;
+}
+
+.signingCard__form__field {
+  margin-top: 1.5rem;
+}
+
+.signingCard__form__label {
+  font-size: 1.4rem;
+}
+
+.signingCard__form__input {
+  font-size: 1.4rem;
+  font-family: 'amazon-light';
+  padding: 0.6rem;
+  outline: none;
+  margin-top: 0.5rem;
+  width: 30rem;
+  border: 0.1rem solid #949494;
+  border-radius: 0.3rem;
+  transition: 150ms ease-in;
+}
+
+.signingCard__form__input:focus {
+  border-color: #e77911;
+  box-shadow: 0 0 0.5rem 0.1rem #f39110;
+}
+
+.signingCard__form__notice {
+  display: flex;
+  font-size: 1.2rem;
+  font-family: 'amazon-light';
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.signingCard__form__notice > .MuiSvgIcon-root {
+  color: #015fb1;
+  margin-right: 0.5rem;
+}
+
+.signingCard__submitButton {
+  margin-top: 1.5rem;
+  width: 100%;
+  padding: 0.6rem;
+  background-color: #f2ca66;
+  border: 0.1rem solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  border-radius: 0.3rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.signingCard__submitButton:hover {
+  background-color: #e6be5b;
+}
+
+.signingCard__note {
+  display: flex;
+  margin-top: 2.5rem;
+  padding-top: 2.5rem;
+  border-top: 0.1rem solid #949494;
+  font-size: 1.3rem;
+  font-family: 'amazon-light';
+}
+
+.signingCard__note > a {
+  display: flex;
+  align-items: flex-end;
+  font-family: 'amazon-light';
+  color: #015fb1;
+}
+
+.signingCard__note > a:hover {
+  text-decoration: underline;
+  color: #e77911;
+}

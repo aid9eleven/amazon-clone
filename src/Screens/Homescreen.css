@@ -1,0 +1,52 @@
+.homescreen__body {
+  padding: 0 2rem;
+}
+
+.homescreen__categories {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.homescreen__feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.homescreen__loginCard {
+  padding: 2rem;
+  background-color: white;
+}
+
+.homescreen__loginCard > h2 {
+  font-size: 2rem;
+}
+
+.homescreen__loginCard > button {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 0.5rem 0;
+  background-color: #f0c14b;
+  color: #111111;
+  border: 0.1rem solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  cursor: pointer;
+}
+
+.homescreen__loginCard > button:hover {
+  background-color: #e2b441;
+}
+
+.homescreen__ad {
+  margin-top: 2rem;
+  flex: 1;
+  cursor: pointer;
+}
+
+.homescreen__ad > img {
+  width: 100%;
+  height: 100%;
+}

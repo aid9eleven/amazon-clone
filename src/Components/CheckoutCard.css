@@ -1,0 +1,132 @@
+.checkoutCard {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  padding: 2rem;
+  background-color: white;
+  border: 0.1rem solid #d5d9d9;
+  border-radius: 1rem;
+}
+
+.checkoutCard__price {
+  font-size: 1.5rem;
+  color: #565959;
+}
+
+.checkoutCard__price__price {
+  font-size: 2.5rem;
+  margin: 0.5rem 0 0 2.5rem;
+  color: #b12704;
+}
+
+.checkoutCard__quantity {
+  font-size: 1.5rem;
+  color: #565959;
+  margin-top: 2rem;
+}
+
+.checkoutCard__quantity__counter {
+  display: flex;
+  margin: 0.5rem 0 0 2.5rem;
+}
+
+.checkoutCard__quantity__counter > button {
+  width: 3rem;
+  font-size: 1.7rem;
+  border: none;
+  outline: none;
+  background-color: #febd69;
+  cursor: pointer;
+}
+
+.checkoutCard__quantity__counter > button:hover {
+  background-color: #f0ab5d;
+}
+
+.checkoutCard__quantity__decrement {
+  border-radius: 0.3rem 0 0 0.3rem;
+}
+
+.checkoutCard__quantity__increment {
+  border-radius: 0 0.3rem 0.3rem 0;
+}
+
+.checkoutCard__quantity__count {
+  width: 8rem;
+  padding: 0.4rem 0;
+  text-align: center;
+  background-color: #eaeded;
+}
+
+.checkoutCard__addToCart, .checkoutCard__buyNow {
+  display: flex;
+  align-items: center;
+  padding: 0.4rem;
+  width: 20rem;
+  outline: none;
+  border-radius: 0.3rem;
+  border: 0.1rem solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  cursor: pointer;
+}
+
+.checkoutCard__addToCart > .MuiSvgIcon-root, .checkoutCard__buyNow > .MuiSvgIcon-root {
+  font-size: 2rem;
+  padding: 0.2rem;
+  box-sizing: content-box;
+  background-color: #2f3841;
+  color: white;
+  border-radius: 0.3rem;
+}
+
+.checkoutCard__addToCart > p, .checkoutCard__buyNow > p {
+  flex: 1;
+}
+
+.checkoutCard__addToCart {
+  background-color: #f2ca66;
+  margin-top: 3rem;
+}
+
+.checkoutCard__addToCart:hover {
+  background-color: #e6be5b;
+}
+
+.checkoutCard__buyNow {
+  margin-top: 1rem;
+  background-color: #f1a950;
+}
+
+.checkoutCard__buyNow:hover {
+  background-color: #e99f45;
+}
+
+.checkoutCard > hr {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 0.1rem;
+  background-color: #e7e7e7;
+  margin: 2rem 0;
+}
+
+.checkoutCard__location {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: fit-content;
+  color: #30666d;
+}
+
+.checkoutCard__location:hover > p {
+  text-decoration: underline;
+}
+
+.checkoutCard__location > .MuiSvgIcon-root {
+  font-size: 2rem;
+}
+
+.checkoutCard__location > p {
+  font-size: 1.4rem;
+  font-family: 'amazon-light';
+}

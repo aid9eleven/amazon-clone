@@ -1,0 +1,71 @@
+/* DEFAULT SETTINGS */
+
+@font-face {
+  font-family: "amazon";
+  src: url(Fonts/AmazonEmberDisplay_Md.ttf);
+}
+
+@font-face {
+  font-family: "amazon-light";
+  src: url(Fonts/AmazonEmberDisplay_Lt.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'amazon';
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font: 1.6rem Arial;
+  height: 100%;
+  background-color: #eaeded;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  display: block;
+  width: fit-content;
+}
+
+li {
+  list-style: none;
+}
+
+.app {
+  min-width: fit-content;
+}
+
+.app__initForeground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  display: none;
+  z-index: 100;
+}
+
+.app__initForeground > p {
+  color: white;
+  font-size: 2rem;
+}
+
+.app.initializing .app__initForeground {
+  display: flex; 
+}

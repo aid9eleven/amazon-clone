@@ -76,12 +76,12 @@ function Cartscreen() {
             {
               user?
                 typeof(cart.filter(item => item.checked===true))!=="undefined"?
-                  cart.filter(item => item.checked===true).reduce(
+                  parseFloat(cart.filter(item => item.checked===true).reduce(
                     (sum, item) => {
                       return (sum + (item["quantity"]
-                      *products.find(product => product.id===item.productId).price)).toFixed(2)
+                      * products.find(product => product.id===item.productId).price))
                     }
-                  ,0)
+                  ,0)).toFixed(2)
                 :0
               :0
             }
